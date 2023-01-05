@@ -1,0 +1,39 @@
+@use '/sass/utils/variables' as *;
+@use '/sass/components/' as *;
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: $background-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+img,
+svg {
+    vertical-align: middle;
+}
+
+.container--size {
+    width: 1200px;
+    padding: 0px 15px 0px 15px;
+    margin: 0 auto;
+}
+
+.section--padding {
+    padding: 94px 0px;
+}
+
+*:focus {
+    outline: none;
+}
