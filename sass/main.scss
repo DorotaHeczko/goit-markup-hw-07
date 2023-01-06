@@ -1,9 +1,22 @@
 @use '/sass/utils/variables' as *;
-@use '/sass/components/' as *;
+@import '/sass/components/navigation-header';
+@import '/sass/utils/variables';
+@import '/sass/components/logo';
+@import '/sass/components/order-box-btn';
+@import '/sass/components/btn-portfolio.scss';
+@import '/sass/components/graphics-box.scss';
+@import '/sass/components/articles';
+@import '/sass/components/job-card.scss';
+@import '/sass/components/photo-list';
+@import '/sass/components/footer-adress';
+@import '/sass/components/social-media';
+@import '/sass/components/footer-newsletter';
+@import '/sass/components/backdrop';
+
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: $background-color;
+    background-color: $button-color;
 }
 
 h1,
@@ -24,13 +37,13 @@ svg {
     vertical-align: middle;
 }
 
-.container--size {
+.container {
     width: 1200px;
     padding: 0px 15px 0px 15px;
     margin: 0 auto;
 }
 
-.section--padding {
+.section {
     padding: 94px 0px;
 }
 

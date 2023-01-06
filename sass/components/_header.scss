@@ -1,4 +1,4 @@
-.header-wrapper {
+.header {
     border-bottom: 2px solid #ececec;
     padding: 24px 0 25px;
 
@@ -42,11 +42,11 @@
         position: relative;
     }
 
-    &__menu-link-active {
+    &__link-active {
         color: $main-color;
     }
 
-    &__menu-link-active::after {
+    &__link-active::after {
         background-color: $main-color;
         content: '';
         position: absolute;
@@ -83,7 +83,7 @@
     }
 }
 
-.header-wrapper--icons > a > svg {
+.header--icons > a > svg {
     margin-right: 10px;
 }
 
@@ -92,7 +92,7 @@ ul {
 }
 
 
-.contacts-nav {
+.contacts {
     display: flex;
     gap: 50px;
     justify-content: flex-end;
@@ -115,7 +115,7 @@ ul {
     }
 }
 
-.contacts-nav__icons__menu-link:hover::after {
+.contacts__icons__menu-link:hover::after {
     background-color: $main-color;
     content: '';
     position: absolute;
