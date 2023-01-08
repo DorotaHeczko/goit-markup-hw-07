@@ -2,7 +2,7 @@
     border-bottom: 2px solid #ececec;
     padding: 24px 0 25px;
 
-    .container--size {
+    .container {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -103,14 +103,14 @@ ul {
     align-items: center;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    .a {
+    a {
         text-decoration: none;
         color: $contact-item-header-color;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    .a:hover,
-    .a:focus {
+    a:hover,
+    a:focus {
         fill: $main-color;
     }
 }

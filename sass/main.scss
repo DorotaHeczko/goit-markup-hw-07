@@ -1,17 +1,17 @@
-@use '/sass/utils/variables' as *;
-@import '/sass/components/header';
-@import '/sass/utils/variables';
-@import '/sass/components/logo';
-@import '/sass/components/order-box-btn';
-@import '/sass/components/btn-portfolio.scss';
-@import '/sass/components/graphics-box.scss';
-@import '/sass/components/articles';
-@import '/sass/components/job-card.scss';
-@import '/sass/components/photo-list';
-@import '/sass/components/footer-adress';
-@import '/sass/components/social-media';
-@import '/sass/components/footer-newsletter';
-@import '/sass/components/backdrop';
+@use './utils/variables' as *;
+@import './components/header';
+@import './utils/variables';
+@import './components/logo';
+@import './components/order-box-btn';
+@import './components/btn-portfolio.scss';
+@import './components/graphics-box.scss';
+@import './components/articles';
+@import './components/job-card.scss';
+@import './components/photo-list';
+@import './components/footer-adress';
+@import './components/social-media';
+@import './components/footer-newsletter';
+@import './components/backdrop';
 
 
 body {

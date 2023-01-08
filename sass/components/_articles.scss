@@ -4,21 +4,21 @@
     padding-top: 7px;
     list-style: none;
 
-    .h2 {
+    h2 {
         text-decoration: none;
         color: $nav-item-color;
         font-size: 14px;
         line-height: 1.14;
         margin-bottom: 9.31px;
     }
-    .p {
+    p {
         text-decoration: none;
-        color: $main-color;
+        color: $contact-item-header-color;
         font-size: 14px;
         line-height: 1.71;
     }
 
-    .h2 {
+    h2 {
         margin-top: 30px;
     }
 }
