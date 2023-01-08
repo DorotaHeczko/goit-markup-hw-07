@@ -4,23 +4,23 @@
     padding-top: 7px;
     list-style: none;
 
-    h2 {
+    &__title {
         text-decoration: none;
         color: $nav-item-color;
         font-size: 14px;
         line-height: 1.14;
         margin-bottom: 9.31px;
+        margin-top: 30px;
     }
-    p {
+    
+    &__descr {
         text-decoration: none;
         color: $contact-item-header-color;
         font-size: 14px;
         line-height: 1.71;
     }
 
-    h2 {
-        margin-top: 30px;
-    }
+  
 }
 
 .job-descr {

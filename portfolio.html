@@ -23,40 +23,38 @@
     </head>
     <body>
         <!-- NAWIGACJA HEADER -->
-        <header class="header">
-            <div class="container">
+    <header class="header">
+            <div class="container header__wrapper">
                 <nav class="header__nav">
                     <a class="logo" href="index.html">Web<span class="logo--black">Studio</span></a>
 
                     <ul class="header__nav-list">
-                        <li><a class="header__menu-link" href="#">Agencja</a></li>
-
                         <li>
-                            <a class="header__menu-link header__link-active" href="portfolio.html"
-                                >Portfolio</a
+                            <a class="header__menu-link" href="#"
+                                >Agencja</a
                             >
+                        </li>
+                        <li>
+                            <a class="header__menu-link header__menu-link--active" href="portfolio.html">Portfolio</a>
                         </li>
 
                         <li><a class="header__menu-link" href="#">Kontakt</a></li>
                     </ul>
                 </nav>
-                <div class="contacts">
-                    <div class="header--icons">
-                        <a href="mailto:info@devstudio.com">
-                            <svg width="16" height="12">
-                                <use href="./images/icons.svg#icon-envelope"></use>
-                            </svg>
-                            info@devstudio.com
-                        </a>
-                    </div>
-                    <div class="header--icons">
-                        <a href="tel:+48111111111">
-                            <svg width="10" height="16">
-                                <use href="./images/icons.svg#icon-smartphone"></use>
-                            </svg>
-                            +48 111 111 111
-                        </a>
-                    </div>
+                <div class="header__contacts">
+                    <a class="header__contact-item" href="mailto:info@devstudio.com">
+                        <svg class="header__contact-item-icon" width="16" height="12">
+                            <use href="./images/icons.svg#icon-envelope"></use>
+                        </svg>
+                        info@devstudio.com
+                    </a>
+
+                    <a class="header__contact-item" href="tel:+48111111111">
+                        <svg class="header__contact-item-icon" width="10" height="16">
+                            <use href="./images/icons.svg#icon-smartphone"></use>
+                        </svg>
+                        +48 111 111 111
+                    </a>
                 </div>
             </div>
         </header>
@@ -73,8 +71,8 @@
                         <li><button class="box-list__btn">Marketing</button></li>
                     </ul>
 
-            <!-- SEKCJA ZDJECIA Z OPISEM PORTFOLIO -->
-                    <ul class="container section box-list graphics-box">
+                    <!-- SEKCJA ZDJECIA Z OPISEM PORTFOLIO -->
+                    <ul class="container box-list graphics-box">
                         <li>
                             <figure class="graphics-box--grid">
                                 <div class="graphics-box__item">
@@ -95,7 +93,9 @@
                                 </div>
                                 <figcaption>
                                     <span class="graphics-box__projects">Technocrack</span>
-                                    <span class="graphics-box__project-name">Strona internetowa</span>
+                                    <span class="graphics-box__project-name"
+                                        >Strona internetowa</span
+                                    >
                                 </figcaption>
                             </figure>
                         </li>
@@ -218,8 +218,12 @@
                                     </div>
                                 </div>
                                 <figcaption>
-                                    <span class="graphics-box__projects">Inspiration has no Borders</span>
-                                    <span class="graphics-box__project-name">Strona internetowa</span>
+                                    <span class="graphics-box__projects"
+                                        >Inspiration has no Borders</span
+                                    >
+                                    <span class="graphics-box__project-name"
+                                        >Strona internetowa</span
+                                    >
                                 </figcaption>
                             </figure>
                         </li>
@@ -242,7 +246,9 @@
                                     </div>
                                 </div>
                                 <figcaption>
-                                    <span class="graphics-box__projects">Magazyn Limited Edition</span>
+                                    <span class="graphics-box__projects"
+                                        >Magazyn Limited Edition</span
+                                    >
                                     <span class="graphics-box__project-name">Dizajn</span>
                                 </figcaption>
                             </figure>
@@ -299,7 +305,7 @@
                 </div>
             </section>
         </main>
-          <!-- SEKCJA FOOTER ADRES -->
+        <!-- SEKCJA FOOTER ADRES -->
         <footer class="dark-bg darg-bg--footer-padding">
             <div class="container footer-box">
                 <div class="addres-box">
@@ -318,13 +324,19 @@
                                 >
                             </li>
                             <li>
-                                <a href="#" class="addres-box__contact" href="mailto:info@example.com"
+                                <a
+                                    href="#"
+                                    class="addres-box__contact"
+                                    href="mailto:info@example.com"
                                     >info@example.com</a
                                 >
                             </li>
 
                             <li>
-                                <a href="#" class="addres-box__contact addres-box--no-underline" href="tel:+48111111111"
+                                <a
+                                    href="#"
+                                    class="addres-box__contact addres-box--no-underline"
+                                    href="tel:+48111111111"
                                     >+48 111 111 111</a
                                 >
                             </li>

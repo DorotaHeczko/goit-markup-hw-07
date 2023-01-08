@@ -24,19 +24,16 @@
     <!-- NAWIGACJA HEADER -->
     <body>
         <header class="header">
-            <div class="container">
+            <div class="container header__wrapper">
                 <nav class="header__nav">
                     <a class="logo" href="index.html">Web<span class="logo--black">Studio</span></a>
 
                     <ul class="header__nav-list">
                         <li>
-                            <a
-                                class="header__menu-link header__link-active"
-                                href="#"
+                            <a class="header__menu-link header__menu-link--active" href="#"
                                 >Agencja</a
                             >
                         </li>
-
                         <li>
                             <a class="header__menu-link" href="portfolio.html">Portfolio</a>
                         </li>
@@ -44,23 +41,20 @@
                         <li><a class="header__menu-link" href="#">Kontakt</a></li>
                     </ul>
                 </nav>
-                <div class="contacts">
-                    <div class="header--icons">
-                        <a href="mailto:info@devstudio.com">
-                            <svg width="16" height="12" margin-right="10px">
-                                <use href="./images/icons.svg#icon-envelope"></use>
-                            </svg>
-                            info@devstudio.com
-                        </a>
-                    </div>
-                    <div class="header--icons">
-                        <a href="tel:+48111111111">
-                            <svg width="10" height="16">
-                                <use href="./images/icons.svg#icon-smartphone"></use>
-                            </svg>
-                            +48 111 111 111
-                        </a>
-                    </div>
+                <div class="header__contacts">
+                    <a class="header__contact-item" href="mailto:info@devstudio.com">
+                        <svg class="header__contact-item-icon" width="16" height="12">
+                            <use href="./images/icons.svg#icon-envelope"></use>
+                        </svg>
+                        info@devstudio.com
+                    </a>
+
+                    <a class="header__contact-item" href="tel:+48111111111">
+                        <svg class="header__contact-item-icon" width="10" height="16">
+                            <use href="./images/icons.svg#icon-smartphone"></use>
+                        </svg>
+                        +48 111 111 111
+                    </a>
                 </div>
             </div>
         </header>
@@ -86,8 +80,8 @@
                             <svg width="270" height="120">
                                 <use href="./images/icons.svg#icon-Group-1"></use>
                             </svg>
-                            <h2>LOREM IPSUM</h2>
-                            <p>
+                            <h2 class="articles__title">LOREM IPSUM</h2>
+                            <p class="articles__descr">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                                 arcu sem. Sed non sodales dui. Interdum et malesuada
                             </p>
@@ -97,8 +91,8 @@
                             <svg width="270" height="120">
                                 <use href="./images/icons.svg#icon-Group-2"></use>
                             </svg>
-                            <h2>LOREM IPSUM</h2>
-                            <p>
+                            <h2 class="articles__title">LOREM IPSUM</h2>
+                            <p class="articles__descr">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                                 arcu sem. Sed non sodales dui. Interdum et malesuada
                             </p>
@@ -108,19 +102,18 @@
                             <svg width="270" height="120">
                                 <use href="./images/icons.svg#icon-Group-3"></use>
                             </svg>
-                            <h2>LOREM IPSUM</h2>
-                            <p>
+                            <h2 class="articles__title">LOREM IPSUM</h2>
+                            <p class="articles__descr">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                                 arcu sem. Sed non sodales dui. Interdum et malesuada
                             </p>
                         </li>
-
                         <li>
                             <svg width="270" height="120">
                                 <use href="./images/icons.svg#icon-Group-4"></use>
                             </svg>
-                            <h2>LOREM IPSUM</h2>
-                            <p>
+                            <h2 class="articles__title">LOREM IPSUM</h2>
+                            <p class="articles__descr">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                                 arcu sem. Sed non sodales dui. Interdum et malesuada
                             </p>

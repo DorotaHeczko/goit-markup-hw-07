@@ -42,7 +42,7 @@
         margin-top: 10px;
         line-height: 14px;
         letter-spacing: 0.01em;
-        color: $main-color;
+        color: $contact-item-header-color;
         transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
@@ -109,7 +109,7 @@
         letter-spacing: 0.03em;
         margin-top: 20px;
         margin-bottom: 30px;
-        color: $main-color;
+        color: $contact-item-header-color;
         transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
         a {
@@ -152,16 +152,17 @@
         margin-left: 8px;
         transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
+
+    &.is-hidden &__modal {
+        transform: translateY(-150%) scale(0.4);
+    }
+
     &--hidden-checkbox {
         display: none;
     }
 
-    &--hidden-checkbox:checked + .backdrop__modal-checkbox > .backdrop--svg-color {
+    &--hidden-checkbox:checked + &__modal-checkbox > &--svg-color {
         opacity: 1;
-    }
-
-    .backdrop.is-hidden .backdrop__modal {
-        transform: translateY(-150%) scale(0.4);
     }
 }
 
