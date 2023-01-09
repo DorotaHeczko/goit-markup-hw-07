@@ -275,23 +275,23 @@ figcaption {
     gap: 30px;
 }
 
-.graphics-box--grid {
+.graphics-box__items-grid {
     margin: 0px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.graphics-box--grid:hover,
-.graphics-box--grid:focus {
+.graphics-box__items-grid:hover,
+.graphics-box__items-grid:focus {
     border-radius: 4px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.graphics-box--grid:hover .graphics-box--grid:focus {
+.graphics-box__items-grid:hover .graphics-box__items-grid:focus {
     box-shadow: 0px 1px 1p rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.graphics-box--grid:hover .graphics-box__throw {
+.graphics-box__items-grid:hover .graphics-box__throw {
     transform: translateY(0);
 }
 

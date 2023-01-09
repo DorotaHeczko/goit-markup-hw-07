@@ -42,10 +42,15 @@
     line-height: 1.71;
 }
 
-.darg-bg--footer-padding {
+
+.dark-bg {
+    background: #2f303a;
+    
+
+&--footer-padding {
     padding: 60px 0;
 }
-
+}
 .footer-box {
     display: flex;
     gap: 10px;
