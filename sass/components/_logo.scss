@@ -4,11 +4,12 @@
     color: $main-color;
     font-size: 26px;
     line-height: 1.17;
-}
 
-.logo--black {
-    color: $menu-link-color;
-}
-.logo--white {
-    color: $button-color;
+    &__studio {
+        color: $menu-link-color;
+
+        &--white {
+            color: $button-color;
+        }
+    }
 }
