@@ -76,7 +76,6 @@
         fill: $main-color;
     }
 
-   
     &__comment:hover,
     &__comment:focus {
         border: 1px solid $main-color;
@@ -167,21 +166,20 @@
     }
 
     &__input:focus + &__icon {
-    fill: $main-color;
-}
+        fill: $main-color;
+    }
 
-}
-
-.close-btn {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    width: 30px;
-    height: 30px;
-    background-color: $button-color;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 50%;
-    cursor: pointer;
+    &__close-btn {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        width: 30px;
+        height: 30px;
+        background-color: $button-color;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 50%;
+        cursor: pointer;
+    }
 }
 
 .is-hidden {
@@ -192,4 +190,3 @@
     visibility: hidden;
     pointer-events: none;
 }
-
